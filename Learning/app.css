@@ -2,6 +2,9 @@
 body{
     background-color: #DFC1E1;
 }
+mark{
+    background-color: aquamarine;
+}
 .logo{
     image-resolution: 300dpi;
 }

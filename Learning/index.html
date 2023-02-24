@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <link rel="stylesheet"  type="text/css" href="app.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Imagens/favico.ico" type="image/x-icon">
+    <title>Exercicios HTML</title> 
+</head>
+<body>
+    <div>
+        <h1>
+            Exercicio 1
+        </h1>
+        <p>
+            primeiro site    
+        </p>
+        <p>
+            Vou fazer uma quebra de linha &lt;br&gt; <br> 
+            Neste momento houve uma quebra de linha
+        </p>
+    </div>
+    <div>
+        <h1>
+            Exercicio 2
+        </h1>
+        <p>
+            Colocar simbolos <!--coment--> 
+            &reg;<br>&copy;<br>&trade;<br>&euro;<br>&pi;<br>&smile;
+        </p>
+        <p>
+            Colocar emojis
+            &#x1f596;
+        </p>
+    </div>
+    <div class="logo_HTML">
+        <h1>
+            Exercicio 2 
+        </h1>
+        <p>Colocação de imagens em css</p>
+        <p><img class= "logo" src="./Imagens/HTML5_black.png" alt="imagem html"></p>
+    </div>
+    <div>
+        <h1>
+            Exercicio 4- Titulos
+        </h1>
+        <h2>
+            segundo titulo
+        </h2>
+        <h3>
+            terceiro titulo
+        </h3>
+    </div>
+    <div>
+        <h1>Exercicio 5</h1>
+        <h2>Principais formatações</h2>
+        <h3>Negrito / Destaque</h3>
+        <p>Texto <b>a Negrito</b> utilizando a tag &lt;b&gt;(não semantica)</p>
+        <h3>Texto Itálico / Semantico</h3>
+        <p>Texto <i>em italico</i>utilizando a tag &lt;i&gt;</p>
+        <p><em>Texto com a tag EM em que é semantica, com significado</em></p>
+        <h3>Texto marcado</h3>
+        <p>Podemos criar <mark>texto marcado</mark> com a tag MARK</p>
+        <h3>Texto Pequeno</h3>
+        <p><font size="1">este texto é pequeno</font></p>
+    </div>
+    <div>
+        <h1>
+            Exercico 5 - Colocação de codigo
+        </h1>
+        <p>
+        <pre>
+        <code>
+                    #include<stdio.h>
+                        #include <locale.h>
+                         
+                        int main() {
+                         setlocale(LC_ALL, "");
+                         int num, i, resultado = 0;
+                         
+                         printf("Digite um número: ");
+                         scanf("%d", &num);
+                         
+                         for (i = 2; i <= num / 2; i++) {
+                            if (num % i == 0) {
+                               resultado++;
+                               break;
+                            }
+                         }
+                         
+                         if (resultado == 0)
+                            printf("%d é um número primo\n", num);
+                         else
+                            printf("%d não é um número primo\n", num);
+                         
+                         return 0;
+                        }
+        </code>
+        </pre>
+        </p>
+    </div>
+    <div>
+        <h1>Citações</h1>
+        <p><q>Isto é uma citação</q></p>
+        <h2>Citações completas</h2>
+        <p>Segundo taibnringipuergkjfndfphjfgiojriorioijorijefgr</p>
+        <blockquote cite="http://www.bosontreinamentos.com.br/programacao-em-linguagem-c/programa-para-determinar-se-um-numero-e-primo-em-c/">
+            cena do livro ou citação de algo
+        </blockquote>
+    </div>
+    <div>
+        <h2>Abreviações</h2>
+        <p><abbr title="cena">ergjor+ijgeo+ijgoiergjoigjgrjegrfghjbf</abbr></p>
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">cenas e cenas</bdo></p>
+    </div>
+    <div>
+        <h1>Trabalho com listas</h1>
+        <h2>listas ordenadas</h2>
+        <ol type="1">
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+        </ol>
+<br>
+        <h2>Lista ordenada com start noutro numero</h2>
+        <ol type="1" start="2">
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+        </ol>
+        <h2>Lista não ordenada</h2>
+        <ul>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+            <li>cena</li>
+        </ul>
+    <h2>Lista de definicçoes</h2>
+    <dl>
+        <dt>cenas</dt>
+        <dd>coiso la coiso</dd>
+    </dl>
+    </div>
+    <div>
+        <h1>Trabalho com links externos</h1>
+        <p>Clica para acessar o meu git <br><a href="https://github.com/esquilo2233"target="_blank" rel="external">Link git</a></p>
+        <h1>trabalho links internos</h1>
+        <p><a href="pag2.html" rel="next">Segunda pag surpresa</a></p>
+        <p><a href="trest/pag3.html" rel="next">terceira pag</a></p>
+    </div>
+</body>
+</html>
