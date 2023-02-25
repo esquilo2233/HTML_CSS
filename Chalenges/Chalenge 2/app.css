@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(48, 46, 46);
+}
+.Title{
+    color: aliceblue;
+    text-align: center;
+}
+.content{
+    text-align: center;
+}
+.btb{
+    width: 150px;
+    fill: rgb(156, 141, 141);
+}
