@@ -1,13 +1,15 @@
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cormorant Garamond', serif;
+
 }
 body{
     background-image: linear-gradient(to right,#d0d18e,#da76cc88);
 }
 p{
     text-align: justify;
+    font-size: 1em;
 }
-.text{
+.texto{
     background-color: white;
     width: 600px;
     padding: 10px;
