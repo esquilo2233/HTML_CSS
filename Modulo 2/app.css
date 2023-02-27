@@ -27,25 +27,7 @@ h2{
     margin-top: 5%;
     font-size: 21px;
 }
-.div2{
-    margin-top: 2%;
-    background-color: white;
-    width: 600px;
-    padding: 10px;
-    margin-left: 26.8%;
-    color: rgb(99, 96, 93);
-    box-shadow: 5px 5px 35px rgb(85, 84, 84);
-    border-radius: 3%;
-}
-.div2:hover{
-    background-color: rgb(63, 65, 65);
-    width: 600px;
-    padding: 10px;
-    margin-left: 26.8%;
-    color: rgb(255, 250, 244);
-    box-shadow: 5px 5px 35px rgb(85, 84, 84);
-    border-radius: 3%;
-}
+
 nav{
     padding: 8px;
     display: flex;
@@ -59,4 +41,11 @@ nav{
     width: 140px;
     margin-top: 1px;
     margin-bottom: -6px;
+}
+.link_nav{
+    margin-top: 0.6%;
+    text-align: center;
+    margin-left: 1%;
+    text-decoration: none;
+    color: aliceblue;
 }
